@@ -1,0 +1,59 @@
+{
+  "tasks": [
+    {
+      "id": "8",
+      "description": "Review pull request for the authentication changes",
+      "completed": true
+    },
+    {
+      "id": "4",
+      "description": "Fix validation error on the task creation form",
+      "completed": false
+    },
+    {
+      "id": "7",
+      "description": "Refactor task routes to use shared middleware",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "description": "Write unit tests for the task update endpoint",
+      "completed": false
+    },
+    {
+      "id": "1",
+      "description": "Set up initial project structure and dependencies",
+      "completed": true
+    },
+    {
+      "id": "10",
+      "description": "Deploy the latest build to the staging environment",
+      "completed": true
+    },
+    {
+      "id": "6",
+      "description": "Add pagination support to the tasks API",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "description": "Update README with API usage examples",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "description": "Create basic CRUD endpoints for tasks",
+      "completed": false
+    },
+    {
+      "id": "9",
+      "description": "Clean up unused files and console logs",
+      "completed": true
+    },
+    {
+      "id": "5ebd",
+      "description": "Another mock task",
+      "completed": false
+    }
+  ]
+}
