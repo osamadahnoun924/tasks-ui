@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { tasksApi } from "./api/tasksApi";
+import { tasksApi } from "../api/tasksApi";
 
 export const TaskDetails = () => {
   const { id } = useParams();
