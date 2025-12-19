@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 export const Nav = () => {
+  console.log("Nav");
   return (
     <ul style={{ display: "flex", flexDirection: "row", gap: "32px" }}>
       <li>
