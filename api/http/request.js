@@ -1,17 +1,7 @@
-import { API_SOURCE } from "./config";
-
-const REAL_URL = "http://localhost:3000";
-const MOCK_URL = "http://localhost:4000";
-
-const BASE_URL = API_SOURCE === "mock" ? MOCK_URL : REAL_URL;
-
-// const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
+import { API_BASE_URL } from "./config.js";
 
 export const request = async (path, options = {}) => {
-  // if (API_SOURCE === "mock") {
-  //   await sleep(5000);
-  // }
-  const res = await fetch(BASE_URL + path, {
+  const res = await fetch(API_BASE_URL + path, {
     ...options,
     headers: {
       "Content-Type": "application/json",
